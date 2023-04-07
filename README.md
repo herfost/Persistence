@@ -1,5 +1,5 @@
 # Persistence 
-Interfaccie e classi generiche per persistere oggett in java
+Libreria utile a persistere oggetti in Java
 
 ## Funzionamento
 L'interfaccia IPersistence offre i metodi [CRUDL](https://it.wikipedia.org/wiki/CRUD). La oggetti persistiti vengono gestiti mediante una chiave di accesso che gli identifica e al fine di evitare passaggi a metodi per riferimento, alternando involontariamente il lro stato, questi vengono copiati prima di effettuare modifiche e salvataggi.
